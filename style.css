@@ -1,0 +1,47 @@
+html, body {
+  font-family: "Source Sans Pro", sans-serif;
+  background-color: #f4f4f4;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+
+
+/* Style for another text */
+.highlight {
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  /* line-height: 1.6; Adjust line spacing */
+  width: 800px; /* Restrict the width for better formatting */
+  margin: 0 auto;
+  font-family: "Source Sans Pro", monospace;
+}
+
+/* Style for normal text */
+.lowlight {
+  color: lightgrey;
+  font-size: 20px;
+  text-align: center;
+  line-height: 1.6; /* Adjust line spacing */
+  width: 600px; /* Restrict the width for better formatting */
+  margin: 0 auto;
+  font-family: "Source Sans Pro", monospace;
+}
+
+/* Style for a smaller text */
+.lowlightSmall {
+  color: lightgrey;
+  font-size: 15px;
+  text-align: center;
+  line-height: 1.6; /* Adjust line spacing */
+  width: 400px; /* Restrict the width for better formatting */
+  margin: 0 auto;
+  font-family: "Source Sans Pro", monospace;
+}
+
